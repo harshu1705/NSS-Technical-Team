@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJSNSS News Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS for spacing */
+    .news-section {
+      margin-bottom: 40px;
+      
+    }
+    .news-image-container {
+      height: 200px; /* Fixed height for image container */
+      overflow: hidden; /* Hide overflow */
+      transition: box-shadow 0.3s ease-in-out; /* Add transition for shadow */
+    }
+    .news-image {
+      width: 100%;
+      height: auto;
+      object-fit: cover; /* Maintain aspect ratio and fill container */
+    }
+    .news-title {
+      text-align: center;
+      margin-top: 10px;
+      color: #333;
+      transition: color 0.3s ease-in-out; /* Add transition for title color */
+    }
+    .news-section:hover .news-image-container {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+    }
+    .news-section:hover .news-title {
+      color: #007bff; /* Change title color on hover */
+    }
+    /* Add space between images */
+    .col-md-4 {
+      padding: 10px;
+      transition: transform 0.3s ease-in-out; /* Add transition for scaling */
+    }
+    .col-md-4:hover {
+      transform: scale(1.05); /* Zoom in on hover */
+    }
+  </style>
+</head>
+<body class="bg-light"> <!-- Adding a light background -->
+
+  <div class="container">
+    <!-- First Div -->
+    <div class="row news-section">
+      <!-- Image 1 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow">
+          <div class="news-image-container">
+            <img src="n1.jpg" alt="Image 1" class="news-image" data-toggle="modal" data-target="#modal1">
+          </div>
+          <h3 class="news-title">Mumbai Sitara</h3>
+        </div>
+      </div>
+      <!-- Modal for Image 1 -->
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="n1.jpg" class="img-fluid" alt="Image 1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Modal for Image 1 -->
+
+      <!-- Repeat the above structure for Image 2 to Image 9 -->
+      <!-- Image 2 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow">
+          <div class="news-image-container">
+            <img src="n2.jpg" alt="Image 2" class="news-image" data-toggle="modal" data-target="#modal2">
+          </div>
+          <h3 class="news-title">Tarunmitra</h3>
+        </div>
+      </div>
+      <!-- Modal for Image 2 -->
+      <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="n2.jpg" class="img-fluid" alt="Image 2">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Modal for Image 2 -->
+
+      <!-- Repeat the above structure for Image 3 to Image 9 -->
+      <!-- Image 3 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow">
+          <div class="news-image-container">
+            <img src="n3.jpg" alt="Image 3" class="news-image" data-toggle="modal" data-target="#modal3">
+          </div>
+          <h3 class="news-title">Aaj Ka Parinaam</h3>
+        </div>
+      </div>
+      <!-- Modal for Image 3 -->
+      <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="n3.jpg" class="img-fluid" alt="Image 3">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Modal for Image 3 -->
+
+      <!-- Repeat the above structure for Image 4 to Image 9 -->
+      <!-- Image 4 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow">
+          <div class="news-image-container">
+            <img src="n4.jpg" alt="Image 4" class="news-image" data-toggle="modal" data-target="#modal4">
+          </div>
+          <h3 class="news-title">Crime Point</h3>
+        </div>
+      </div>
+      <!-- Modal for Image 4 -->
+      <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="n4.jpg" class="img-fluid" alt="Image 4">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Modal for Image 4 -->
+
+      <!-- Repeat the above structure for Image 5 to Image 9 -->
+      <!-- Image 5 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow">
+          <div class="news-image-container">
+            <img src="n5.jpg" alt="Image 5" class="news-image" data-toggle="modal" data-target="#modal5">
+          </div>
+          <h3 class="news-title">Navbharat</h3>
+        </div>
+      </div>
+      <!-- Modal for Image 5 -->
+      <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="n5.jpg" class="img-fluid" alt="Image 5">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Modal for Image 5 -->
+
+      <!-- Image 6 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow">
+          <div class="news-image-container">
+            <img src="n6.jpg" alt="Image 6" class="news-image" data-toggle="modal" data-target="#modal6">
+          </div>
+          <h3 class="news-title">Tarunmitra</h3>
+        </div>
+      </div>
+      <!-- Modal for Image 6 -->
+      <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="n6.jpg" class="img-fluid" alt="Image 6">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Modal for Image 6 -->
+
+      <!-- Image 7 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow">
+          <div class="news-image-container">
+            <img src="n7.jpg" alt="Image 7" class="news-image" data-toggle="modal" data-target="#modal7">
+          </div>
+          <h3 class="news-title">Navbharat</h3>
+        </div>
+      </div>
+      <!-- Modal for Image 7 -->
+      <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="n7.jpg" class="img-fluid" alt="Image 7">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Modal for Image 7 -->
+
+      <!-- Image 8 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow">
+          <div class="news-image-container">
+            <img src="n8.jpg" alt="Image 8" class="news-image" data-toggle="modal" data-target="#modal8">
+          </div>
+          <h3 class="news-title">Break Points</h3>
+        </div>
+      </div>
+      <!-- Modal for Image 8 -->
+      <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="n8.jpg" class="img-fluid" alt="Image 8">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Modal for Image 8 -->
+
+      <!-- Image 9 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow">
+          <div class="news-image-container">
+            <img src="n9.jpg" alt="Image 9" class="news-image" data-toggle="modal" data-target="#modal9">
+          </div>
+          <h3 class="news-title">Gunaah Times</h3>
+        </div>
+      </div>
+      <!-- Modal for Image 9 -->
+      <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="n9.jpg" class="img-fluid" alt="Image 9">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Modal for Image 9 -->
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

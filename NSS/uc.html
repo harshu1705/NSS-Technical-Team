@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events @DJS NSS</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/tutorials/timelines/timeline-6/assets/css/timeline-6.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            overflow-x: hidden;
+        }
+
+        .container-fluid {
+            padding: 50px 0;
+        }
+
+        .bsb-timeline-6 {
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-img-top,
+        .card-title,
+        .card-subtitle,
+        .card-text,
+        .text-body-secondary {
+            transition: color 0.3s;
+        }
+
+        .card:hover .card-img-top,
+        .card:hover .card-title,
+        .card:hover .card-subtitle,
+        .card:hover .card-text,
+        .card:hover .text-body-secondary {
+            color: #007bff;
+        }
+
+        /* Overlay */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+            opacity: 1;
+            transition: opacity 0.5s;
+        }
+
+        body.loaded .overlay {
+            opacity: 0;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Upcoming Events @DJS NSS -->
+    <div class="container-fluid">
+        <h1 class="text-center mb-5">Upcoming Events @DJS NSS</h1>
+
+        <!-- Timeline 6 - Bootstrap Brain Component -->
+        <section class="bsb-timeline-6 py-3 py-md-5 py-xl-8">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-12 col-xl-10 col-xxl-9">
+
+                        <ul class="timeline">
+                            <li class="timeline-item left">
+                                <div class="timeline-body">
+                                    <div class="timeline-content">
+                                        <div class="card border-0">
+                                            <img class="card-img-top img-fluid" loading="lazy" src="img_web\img1.webp" alt="Bootstrap 5">
+                                            <div class="card-body border border-top-0 border-light-subtle">
+                                                <h2 class="card-title mb-2">Core Interviews 2023-2024</h2>
+                                                <h6 class="card-subtitle text-secondary mb-3">#GoNSS</h6>
+                                                <p class="card-text mb-2">"Join us in the journey of selfless service, where 'Not Me, But You' becomes our mantra. Together, let's forget ourselves to serve others and make the world a better place. Volunteers, are you ready to make a difference?"</p>
+                                                <p class="card-text m-0"><small class="text-body-secondary">"Stay tuned for the  reveal of date, time, and venue"
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                </small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Add more timeline items -->
+                            <li class="timeline-item right">
+                                <div class="timeline-body">
+                                    <div class="timeline-content">
+                                        <div class="card border-0">
+                                            <img class="card-img-top img-fluid" loading="lazy" src="https://via.placeholder.com/400x300" alt="Event 1">
+                                            <div class="card-body border border-top-0 border-light-subtle">
+                                                <h2 class="card-title mb-2">Volunteer Registration Drive-2024</h2>
+                                                <h6 class="card-subtitle text-secondary mb-3">#GoNSS</h6>
+                                                <p class="card-text mb-2">"Ready to give back? NSS is hosting a volunteer registration drive! Join us in serving our communities and making a real difference. Register today to be part of something bigger than yourself!"</p>
+                                                <p class="card-text m-0"><small class="text-body-secondary">"Stay tuned for the  reveal of date, time, and venue"</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-item left">
+                                <div class="timeline-body">
+                                    <div class="timeline-content">
+                                        <div class="card border-0">
+                                            <img class="card-img-top img-fluid" loading="lazy" src="https://via.placeholder.com/400x300" alt="Event 2">
+                                            <div class="card-body border border-top-0 border-light-subtle">
+                                                <h2 class="card-title mb-2">Tree Plantation Drive</h2>
+                                                <h6 class="card-subtitle text-secondary mb-3">#GoNSS</h6>
+                                                <p class="card-text mb-2">"Join hands for a greener future! Participate in our Tree Plantation Drive and be a part of the solution to combat climate change. Together, let's plant trees, nurture our environment, and create a healthier planet. Register now to sow the seeds of change!"</p>
+                                                <p class="card-text m-0"><small class="text-body-secondary">"Stay tuned for the  reveal of date, time, and venue"</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-item right">
+                                <div class="timeline-body">
+                                    <div class="timeline-content">
+                                        <div class="card border-0">
+                                            <img class="card-img-top img-fluid" loading="lazy" src="https://via.placeholder.com/400x300" alt="Event 3">
+                                            <div class="card-body border border-top-0 border-light-subtle">
+                                                <h2 class="card-title mb-2">Event 3</h2>
+                                                <h6 class="card-subtitle text-secondary mb-3">Subtitle</h6>
+                                                <p class="card-text mb-2">Description of event 3.</p>
+                                                <p class="card-text m-0"><small class="text-body-secondary">Last updated 2 weeks ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-item left">
+                                <div class="timeline-body">
+                                    <div class="timeline-content">
+                                        <div class="card border-0">
+                                            <img class="card-img-top img-fluid" loading="lazy" src="https://via.placeholder.com/400x300" alt="Event 4">
+                                            <div class="card-body border border-top-0 border-light-subtle">
+                                                <h2 class="card-title mb-2">Event 4</h2>
+                                                <h6 class="card-subtitle text-secondary mb-3">Subtitle</h6>
+                                                <p class="card-text mb-2">Description of event 4.</p>
+                                                <p class="card-text m-0"><small class="text-body-secondary">Last updated 3 weeks ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-item right">
+                                <div class="timeline-body">
+                                    <div class="timeline-content">
+                                        <div class="card border-0">
+                                            <img class="card-img-top img-fluid" loading="lazy" src="https://via.placeholder.com/400x300" alt="Event 5">
+                                            <div class="card-body border border-top-0 border-light-subtle">
+                                                <h2 class="card-title mb-2">Event 5</h2>
+                                                <h6 class="card-subtitle text-secondary mb-3">Subtitle</h6>
+                                                <p class="card-text mb-2">Description of event 5.</p>
+                                                <p class="card-text m-0"><small class="text-body-secondary">Last updated 4 weeks ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Add loaded class to body after page is loaded
+        window.addEventListener('load', function () {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

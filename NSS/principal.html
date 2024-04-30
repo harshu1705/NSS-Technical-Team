@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thoughts</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    background-image: url('space-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .message {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    animation: fadeInUp 2s ease forwards; /* Updated animation duration */
+  }
+
+  .message img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 30px;
+    flex-shrink: 0;
+    animation: fadeInDown 2s ease forwards; /* Image animation */
+  }
+
+  .message p {
+    margin-top: 20px;
+    animation: fadeInRight 2s ease forwards; /* Text animation */
+  }
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #0056b3;
+  }
+
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="message">
+    <img src="principal sir .jpg" alt="Principal">
+    <div>
+      <h2>Principal's Message</h2>
+      <p>
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, dignissimos ipsum nostrum corporis nisi molestiae labore delectus animi quasi? Quasi iusto fugit, nostrum possimus facere molestiae? Eos cum culpa, quas provident repellendus esse similique aspernatur. Voluptatum sit excepturi deleniti placeat illo sed nisi accusantium, quia dignissimos labore. Quia id aut vero qui provident quas maiores mollitia quis. Quia, soluta rem! Commodi, pariatur eius doloremque tempore quibusdam quis fuga deleniti neque deserunt exercitationem mollitia autem perferendis, animi at eligendi temporibus quam nulla excepturi. Cum doloremque quod veritatis doloribus? Cum suscipit doloremque soluta earum adipisci voluptas error, nostrum distinctio, consequatur a hic?
+      </p>
+    </div>
+  </div>
+  <div class="message">
+    <img src="cp2.jpg" alt="Chairperson">
+    <div>
+      <h2>Chairperson's Message</h2>
+      <p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellendus qui totam et consequuntur, quasi porro delectus provident, eius doloribus, cupiditate fugit molestias quae asperiores repudiandae debitis vitae sint maiores voluptatum assumenda. Ex eius exercitationem excepturi obcaecati veniam quibusdam iste officiis molestiae at numquam perferendis tenetur tempora quos amet magni nulla explicabo repudiandae, eos adipisci non vero aspernatur soluta neque ducimus. Cum debitis blanditiis illo laborum. Rem dolorum doloremque voluptatum suscipit. Id voluptas, non optio nam perspiciatis nemo harum velit. Quo, ipsa veritatis libero ipsam itaque optio, repudiandae sint ea iusto alias odio obcaecati, dolorem cum animi dolores reprehenderit nulla.
+      </p>
+    </div>
+  </div>
+</div>
+<!-- 
+<button class="scroll-to-top" onclick="scrollToTop()">
+  <div class="arrow-up"></div>
+</button> -->
+
+<!-- <script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.querySelector('.scroll-to-top').classList.add('show');
+    } else {
+      document.querySelector('.scroll-to-top').classList.remove('show');
+    }
+  }
+
+  function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script> -->
+</body>
+</html>

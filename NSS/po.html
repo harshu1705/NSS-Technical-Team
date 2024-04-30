@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Custom CSS */
+    .image-container {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .name {
+      text-align: center;
+      margin-top: 10px; /* Adjust the margin as needed */
+    }
+    .spacer {
+      height: 20px; /* Adjust the height as needed */
+    }
+    .member-card {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      position: relative; /* Add position relative for absolute positioning */
+      min-width: 300px; /* Set a minimum width to ensure cards are same size */
+      margin: 0 10px; /* Add margin between cards */
+    }
+    .member-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    .member-card img {
+      border-radius: 50%;
+      transition: all 0.3s ease;
+    }
+    .member-card img:hover {
+      transform: scale(1.1);
+    }
+    .social-icons {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+    }
+    .social-icons a {
+      margin-right: 10px;
+      color: #000;
+    }
+  </style>
+</head>
+<body style="background-color: #f1f1f1; display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="spacer"></div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="member-card text-center">
+              <div class="image-container">
+                <img src="po1.jpg" style="height: 180px; width:180px;" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div class="name">
+                <h4><b>
+                    Prof. Rahul Taware</b></h4>
+                <p>Program Officer</p>
+                <div class="social-icons">
+                  <a href="#" target="_self"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/rahul-taware-4861788a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="member-card text-center">
+              <div class="image-container">
+                <img src="po22.jpg" style="height: 180px; width:180px;" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div class="name">
+                <h4><b>Prof. Alisha Banz</b></h4>
+                <p>Program Officer</p>
+                <div class="social-icons">
+                  <a href="#" target="_self"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/alisha-banz-00735664/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="member-card text-center">
+              <div class="image-container">
+                <img src="po33.jpg" style="height: 180px; width:180px;" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div class="name">
+                <h4><b>Prof. Vyankatesh Bagal</b></h4>
+                <p>Program Officer</p>
+                <div class="social-icons">
+                  <a href="#" target="_self"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/vyankatesh-bagal-2b07b81b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spacer"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Custom CSS */
+    .image-container {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .name {
+      text-align: center;
+      margin-top: 10px; /* Adjust the margin as needed */
+    }
+    .spacer {
+      height: 20px; /* Adjust the height as needed */
+    }
+    .member-card {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      position: relative; /* Add position relative for absolute positioning */
+    }
+    .member-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    .member-card img {
+      border-radius: 50%;
+      transition: all 0.3s ease;
+    }
+    .member-card img:hover {
+      transform: scale(1.1);
+    }
+    .social-icons {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+    }
+    .social-icons a {
+      margin-right: 10px;
+      color: #000;
+    }
+  </style>
+</head>
+<body style="background-color: #f1f1f1;">
+  <div class="container">
+    <div class="row">
+      <!-- First Div -->
+      <div class="col-md-4 offset-md-4">
+        <div class="spacer"></div>
+        <div class="member-card text-center">
+          <div class="image-container">
+            <img src="cp2.jpg" style="height: 180px; width:180px;" alt="Image" class="img-fluid rounded-circle">
+          </div>
+          <div class="name">
+            <h4><b>Rugved Mahulkar</b></h4>
+            <p>Chairperson and Mentor</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/mahulkar_rugved09/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/rugved-mahulkar-22977b245/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="spacer"></div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Second Div -->
+      <div class="col">
+        <div class="spacer"></div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="member-card text-center">
+              <div class="image-container">
+                <img src="deep.jpg" style="height: 150px; width:150px;" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div class="name">
+                <h5><b>Deep Bhanushali</b></h5>
+                <p>Treasurer and Mentor</p>
+                <div class="social-icons">
+                  <a href="https://www.instagram.com/deep.bhanushali_15/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/deepbhanushali15/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 offset-md-4">
+            <div class="member-card text-center">
+              <div class="image-container">
+                <img src="ayush.jpg" style="height: 150px; width:150px;" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div class="name">
+                <h5><b>Ayush Tolia</b></h5>
+                <p>Vice-Chairperson</p>
+                <div class="social-icons">
+                  <a href="https://www.instagram.com/rugvedmahulkar" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/ayush-tolia-73a081214/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spacer"></div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Third Div -->
+      <div class="col">
+        <div class="spacer"></div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="member-card text-center">
+              <div class="image-container">
+                <img src="nirali.jpg" style="height: 150px; width:150px;" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div class="name">
+                <h5><b>Nirali Hirpara</b></h5>
+                <p>Secretary</p>
+                <div class="social-icons">
+                  <a href="https://www.instagram.com/_nirali.hirpara/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/niralihirpara06/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 offset-md-4">
+            <div class="member-card text-center">
+              <div class="image-container">
+                <img src="meera.jpg" style="height: 150px; width:150px;" alt="Image" class="img-fluid rounded-circle">
+              </div>
+              <div class="name">
+                <h5><b>Meera Dedhia</b></h5>
+                <p>Jt. Treasurer</p>
+                <div class="social-icons">
+                  <a href="https://www.instagram.com/meera_2632/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/meera-dedhia-05a893199/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spacer"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
